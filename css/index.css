@@ -1,0 +1,219 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    position: relative;
+    overflow: hidden;
+}
+
+body::-webkit-scrollbar {
+    opacity: 0;
+    width: 0;
+}
+
+#first {
+    width: 100vw;
+    min-height: 100vh;
+    background-size: cover;
+    opacity: 1;
+}
+
+#second {
+    width: 100vw;
+    min-height: 100vh;
+    background: #e9c1d1;
+}
+
+#suprise-section {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+#gallery {
+    width: 100vw;
+    height: 100vh;
+    opacity: 1;
+    position: relative;
+}
+
+#feeling {
+    width: 100vw;
+    height: 100vh;
+    opacity: 1;
+    position: absolute;
+    transform: translateY(1rem);
+}
+
+#myFeeling {
+    width: 100vw;
+    height: 100vh;
+    opacity: 1;
+    position: absolute;
+    transform: translateY(100%);
+}
+
+#end {
+    width: 100vw;
+    height: 100vh;
+    opacity: 1;
+    position: absolute;
+    transform: translateY(200%);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#text-typing {
+    opacity: 1;
+    transition: 0.7s ease-in-out;
+}
+
+#start-button,
+#suprise-button,
+#yesBtn,
+#showGallery {
+    transition: var(--hover-trans-400ms);
+}
+
+/* img gallery */
+#journey {
+    width: 100%;
+    height: 100%;
+    transition: 0.7s ease-in-out;
+}
+
+/* img-items */
+.img-items {
+    height: 70%;
+    object-fit: cover;
+    opacity: 0;
+    transition: var(--hover-trans-400ms);
+}
+
+.typewriter {
+    /* width: 13.5%; */
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 2s steps(20) 0.5s, blinkCursor 1s steps(20) infinite;
+    border-right: 2px solid white;
+}
+
+.typewriter2 {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing2 2s steps(22) 0.5s, blinkCursor 1s steps(22) infinite;
+    border-right: 2px solid white;
+}
+
+.reversed {
+    /* width: 0; */
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typingReversed 2s steps(20) 0.5s, blinkCursor 1s steps(20) infinite;
+    border-right: 2px solid white;
+    opacity: 1;
+    transition: 6s ease-in-out;
+}
+
+@keyframes typingReversed {
+    from {
+        width: 13.5%;
+    }
+
+    to {
+        width: 0;
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 14%;
+    }
+}
+
+@keyframes typing2 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 16%;
+    }
+}
+
+@keyframes blinkCursor {
+    50% {
+        border-color: transparent;
+    }
+}
+
+
+/* next section */
+#nextSection {
+    position: absolute;
+    z-index: 2;
+    left: 97%;
+    top: 89%;
+}
+
+#nextSection>span {
+    padding: 1rem;
+    border: 1px solid transparent;
+    background: black;
+    color: white;
+    transition: var(--hover-trans-400ms);
+}
+
+/* btn */
+.btn123 {
+    transition: var(--hover-trans-400ms);
+}
+
+#showGallery {
+    opacity: 1;
+    transition: 0.7s ease-in-out;
+}
+
+#continue {
+    transition: var(--hover-trans-400ms);
+}
+
+/* hover */
+#start-button:hover {
+    background: var(--hover-white-bg);
+}
+
+#suprise-button:hover {
+    background: var(--hover-black-bg);
+    color: var(--white-text);
+}
+
+#yesBtn:hover {
+    background: var(--hover-white-bg);
+}
+
+#showGallery:hover,
+#continue:hover {
+    background: var(--hover-white-bg);
+}
+
+.btn123:hover {
+    background-color: var(--hover-black-bg);
+    color: var(--white-text);
+}
+
+#nextSection>span:hover {
+    border-color: rgba(0, 0, 0, 0.8);
+    background: transparent;
+    color: black;
+}

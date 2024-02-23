@@ -1,0 +1,14 @@
+:root { 
+    /* text-color */
+    --white-text: rgba(255 ,255 ,255 ,0.85);
+    /* hover effect */
+    --hover-white-bg: rgba(255, 255, 255, 0.34);
+    --hover-black-bg: rgba(0,0,0, 0.7);
+    /* transition */
+    --hover-trans-400ms: 0.4s ease-in-out;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
