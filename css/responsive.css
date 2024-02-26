@@ -1,0 +1,70 @@
+@media (max-width: 1366px) {
+
+    /* second */
+    #second h2 {
+        font-size: 2.25rem;
+    }
+
+    #second span {
+        font-size: 1.25rem;
+    }
+
+    #suprise-button {
+        font-size: 1rem;
+    }
+
+    /* end second section */
+    /* section kichi */
+    #suprise-section h2 {
+        font-size: 2.75rem;
+    }
+
+    #suprise-section small {
+        font-size: 1rem;
+    }
+
+    #suprise-section a,
+    #suprise-section button {
+        font-size: 0.8rem;
+    }
+
+    /* end section kichi */
+    /* section gallery */
+    #gallery h2 {
+        font-size: 1.75rem;
+    }
+
+    #gallery span {
+        font-size: 0.9rem;
+    }
+
+    #gallery button,
+    #gallery a {
+        font-size: 0.85rem;
+    }
+
+    /* end section gallery */
+    /* section feeling */
+    #feeling h2 {
+        font-size: 2.75rem;
+    }
+
+    #feeling small {
+        font-size: 1rem;
+    }
+
+    #feeling #hideBtn,
+    #submitBtn {
+        width: 30% !important;
+        font-size: 0.9rem;
+    }
+
+    /* end section feeling */
+    #myFeeling h2 {
+        font-size: 2rem;
+    }
+
+    #myFeeling span {
+        font-size: 0.9rem;
+    }
+}
